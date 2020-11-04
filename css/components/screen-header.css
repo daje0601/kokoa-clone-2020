@@ -1,0 +1,17 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*한줄에 있는 아이콘과 글자를 정렬하는 명령어*/
+    margin-top: 30px;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+}
+
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 600
+} 
+
+.screen-header__icons span {
+    margin-left : 25px;
+}
