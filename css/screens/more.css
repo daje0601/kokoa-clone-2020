@@ -10,7 +10,7 @@
 
 .more-suggestions__title {
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .more-suggestions__icons {
@@ -40,4 +40,8 @@
 .more-suggestions__icon-image i{
     font-size: 32px;
     color: white;
+}
+
+.more-suggestions__icon-text {
+    font-size:12px;
 }

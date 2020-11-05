@@ -21,12 +21,23 @@
     position: relative;
 }
 
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(10px) rotateY(180deg);
+    }
+    100%{
+        transform: none;
+    }
+}
 .nav__notification {
     position: absolute;
     left: 25px;
     bottom:15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
-
 .nav__check {
     background-color: orange;
     width: 8px;
@@ -39,4 +50,16 @@
     position: absolute;
     left: 30px;
     bottom:25px;
+}
+
+@keyframes appearBtnAnimaiton {
+    from {
+        transform: translateY(80px);
+    }
+    to {
+        transform: none;
+    }
+}
+.nav__btn {
+    animation:appearBtnAnimaiton 1s ease-in-out;
 }
