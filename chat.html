@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat w/daje- Kokoa Clone</title>
+    <style type="text/css"> 
+        a { text-decoration:none; color: rgba(0,0,0,0.5)} 
+    </style>
 </head>
 <body id="chat-screen">
     <div class="status-bar">
@@ -65,6 +68,23 @@
         </div>
     </main>
    
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="tex" placeholder="Write a message..." />
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form> 
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    
     <script
         src="https://kit.fontawesome.com/6478f529f2.js" 
         crossorigin="anonymous"

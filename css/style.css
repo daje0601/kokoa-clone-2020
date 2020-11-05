@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -29,3 +30,6 @@ body{
 .main-screen {
     padding: 0px var(--horizontal-space);
 }
+
+
+
