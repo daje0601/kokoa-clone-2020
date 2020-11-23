@@ -2,6 +2,9 @@
     margin-top: 50px;
 }
 
+.screen-header__icons {
+    text-decoration: none;
+}
 .more-suggestions {
     margin-top: 50px;
     border-top: var(--main-border);
@@ -29,6 +32,7 @@
     width: 60px;
     height: 60px;
     background-color: var(--yellow);
+    opacity: 0.7;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -44,4 +48,17 @@
 
 .more-suggestions__icon-text {
     font-size:12px;
+}
+
+.tree {
+    background-color: tomato;
+}
+
+.gifts {
+    background-color: teal;
+}
+
+.adad { 
+    background-color: wheat;
+    opacity: 1;
 }

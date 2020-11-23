@@ -9,6 +9,22 @@
     align-items: center;
     font-size: 32px;
     top:0;
+    font-weight: 800;
+    justify-content: space-between;
+    animation: snow 10s infinite;
+}
+
+@keyframes pleasescreenshort { 
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
+.short_screen1 .short_screen2 {
+    animation: pleasescreenshort 2s infinite;
 }
 
 @media screen and (max-width:645px){
@@ -16,3 +32,5 @@
         display: none;
     }
 }
+
+
